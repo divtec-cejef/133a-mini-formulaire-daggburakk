@@ -31,8 +31,6 @@ h1{
     text-shadow: 2px 2px 2px #2c3e50;
 }
 
-
-
 button {
     padding: .6rem 1rem;
     border: none;
@@ -59,7 +57,6 @@ form{
     border: 6px solid #2c3e50;
 }
 
-
 form>ul{
     list-style-type: none;
     padding: 0;
@@ -69,10 +66,18 @@ form>ul{
 form >ul>li{
         margin-bottom: 1.5em;
 
-    }
+}
 
 label{
     display: block;
+    margin-bottom: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input{
+    border:2px solid #2c3e50;
+    padding: 1em;
 }
 
 
